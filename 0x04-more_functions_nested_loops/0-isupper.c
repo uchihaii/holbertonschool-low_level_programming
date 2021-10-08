@@ -1,15 +1,20 @@
+#include "main.h"
 /**
- *  * _isupper - checks if entering c is upper case char
+ *  * _isupper - Retorna 1 si la letra es mayúscula.
  *   *
- *    * @c: entering char
- *     * Return: 1 or 0 (upper char / not upper char)
- *      */
+ *    * @c: variable a estudiar en la función.
+ *     *
+ *      * Return: 1 o 0.
+ *       */
+
 int _isupper(int c)
 {
-		if (c >= 'A' && c <= 'Z')
-				{
-							return (1);
-								}
-
-			return (0);
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
