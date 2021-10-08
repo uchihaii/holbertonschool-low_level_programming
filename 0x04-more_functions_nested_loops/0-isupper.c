@@ -1,15 +1,13 @@
 #include "main.h"
 /**
- *  * _isupper - Retorna 1 si la letra es mayúscula.
- *   *
- *    * @c: variable a estudiar en la función.
- *     *
- *      * Return: 1 o 0.
- *       */
+ *  * _isupper - check uppercase character
+ *   * @c: parameter for a character
+ *    * Return: Should be 1 if is uppercase otherwise should be 0
+ *     */
 
 int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
+	if (c > 64 && c < 91)
 	{
 		return (1);
 	}
