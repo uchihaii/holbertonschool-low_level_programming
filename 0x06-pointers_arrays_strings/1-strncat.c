@@ -6,14 +6,14 @@
      * @src:char
       * @n:int
        * Return:char
-        */
+       */
 
 char *_strncat(char *dest, char *src, int n)
 {
 	char *s = dest;
 	int i = 0;
 
-	while (*dest != '\0' )
+	while (*dest != '\0')
 	{
 		dest++;
 	}
