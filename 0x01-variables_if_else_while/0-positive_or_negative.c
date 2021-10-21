@@ -6,7 +6,7 @@
  *  * main - Entry point-c
  *   *
  *    * Return: Always 0 (Success)
- *     */
+ */
 
 int main(void)
 {
