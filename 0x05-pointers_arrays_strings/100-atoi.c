@@ -30,7 +30,9 @@ int _atoi(char *s)
 				{
 					num *= 10;
 				}
-				num_f += num
+				num_f += num;
 			}
 		}
 	}
+}
+
