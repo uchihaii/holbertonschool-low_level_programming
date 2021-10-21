@@ -1,13 +1,13 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strelen_recursion - length of string
  * @s: pointer of string
- * Return: int
+ * Return: void
  */
 
 int _strelen_recursion(char *s)
 {
-	int a = 0;
 
 	if (*s == '\0')
 	{
@@ -15,7 +15,6 @@ int _strelen_recursion(char *s)
 	}
 	else
 	{
-		a++;
-		return (a +  _strlen_recursion(s + 1));
+		return (1 +  _strlen_recursion(s + 1));
 	}
 }
