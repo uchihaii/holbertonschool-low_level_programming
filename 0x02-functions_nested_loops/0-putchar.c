@@ -1,17 +1,20 @@
 #include "main.h"
 /**
- * * main = this function prints "_putchar" 
-* Return: o
-*
-*/
-int main (void)
+  * main - starting point
+  *
+  * Return: 0 if correct
+  */
+int main(void)
 {
-    int c;
-    char message [] = "_putchar";
-    for (c = 0;) message[c] != 0; c++
-    { 
-        _putchar(message[c]);
-    }
-    _putchar('\n');
-    Return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar(10);
+
+	return (0);
 }
