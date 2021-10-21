@@ -11,7 +11,7 @@ int _atoi(char *s)
 
 	for (tam_ar = 0; s[tam_ar] != '\0'; tam_ar++)
 	{
-		if (pru >= 48 && pru <= 57)
+		 (pru >= 48 && pru <= 57)
 			can_num++;
 	}
 
