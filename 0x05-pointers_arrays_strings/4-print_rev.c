@@ -2,7 +2,7 @@
 
 /**
  *  _strlen - returns  length of string
- *  @s: a string 
+ *  @s: a string
  *  Return: i
  */
 
@@ -14,20 +14,22 @@ int _strlen(char *s)
 {
 	i++;
 }
-  return (i); 
-  }
+
+return (i);
+}
 
 /**
- *  print_rev - prints string in reverse 
+ *  print_rev - prints string in reverse
  *  @s: a strings
  */
 
 void print_rev(char *s)
 {
 	int i, len = 0;
+
 	len = _strlen(s);
 
-	for(i = (len - 1); i >=0; i--)
+	for (i = (len - 1); i > = 0; i--)
 	{
 		_putchar(s[i]);
 	}
